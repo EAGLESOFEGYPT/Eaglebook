@@ -1,0 +1,750 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+    
+}
+
+ body.dark-mode {
+ background-color: #444;
+            color: white;
+            
+        }
+        
+        body.light-mode {
+            background-color: #fff;
+            color: #000;
+            
+        }
+        .dark-mode button {
+            background-color: #666;
+            color: white;
+        }
+        .light-mode button {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .dark-mode .modal-contentC {
+            background-color: #666;
+            color: white;
+        }
+        .light-mode .modal-contentC{
+            background-color: #ddd;
+            color: black;
+        }
+        .dark-mode a {
+            
+            color: #fff;
+        }
+        .light-mode a {
+            
+            color: #000;
+        }
+ .dark-mode nav  {
+   background-color:#444;
+            color: #fff;
+        }
+.light-mode nav {
+      background-color: #fff;
+            color: #000;
+  }
+  .dark-mode #navbar1  {
+   background-color:#444;
+      color:#fff;
+        }
+.light-mode #navbar1 {
+      background-color: #fff;
+      color:#000;
+  }
+.dark-mode nav ul li .active {
+    color:#007BFFdd;
+    border-bottom:3px solid #007BFF;
+    
+}
+.light-mode nav ul li .active {
+    color:#007BFFdd;
+    border-bottom:3px solid #007BFF;
+}
+
+.dark-mode .modal{
+    background-color: #444;
+    color:#fff;
+}
+.light-mode .modal{
+    background-color: #fff;
+    color:#000;
+}
+ .dark-mode .modal-content{
+    background-color: #444;
+    color:#fff;
+}
+.light-mode .modal-content {
+    background-color: #fff;
+    color:#000;
+}
+ .dark-mode #editPopup{
+    background-color: #444;
+    color:#fff;
+}
+.light-mode #editPopup {
+    background-color: #fff;
+    color:#000;
+}
+
+ .dark-mode .poppy{
+    background-color: #444;
+    color:#fff;
+}
+.light-mode .poppy{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode .popup{
+    background-color: #444;
+    color:#fff;
+}
+.light-mode .popup{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode .nb1 .search input{
+    background-color: #444;
+    color:#fff;
+   
+}
+
+.light-mode #chatInput{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode #chatInput{
+    background-color: #444;
+    color:#fff;
+   
+}
+.light-mode .form-container input{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode .form-container input{
+    background-color: #444;
+    color:#fff;
+   
+}
+.light-mode .nb1 .search input{
+    background-color: #fff;
+    color:#000;
+   
+}
+.light-mode  #inputField{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode  #inputField{
+    background-color: #444;
+    color:#fff;
+   
+}
+.light-mode .chat-popup{
+    background-color: #fff;
+    color:#000;
+}
+.dark-mode .chat-popup{
+    background-color: #444;
+    color:#fff;
+   
+}
+
+.light-mode .other-message {
+    background-color:#f0f0f0;
+    color:#000;
+}
+.dark-mode .other-message{
+    background-color: #444ddd;
+    color:#fff;
+   
+}
+#navbar {
+    
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed; 
+    z-index:10;
+    bottom:0;
+    width: 100%;
+    height:40px;
+    Max-width:400px;
+    left:0;
+    right:0;
+}
+#navbar1{
+   justify-content:center;
+    position: fixed; 
+    z-index:10;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height:40px;
+    Max-width:400px;
+    padding: 10px 0;
+}
+.nb1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top:-10px;
+    margin-right:10px;
+    width:100%;
+}
+.nb1 .search{
+    display: flex;
+    width:52%;
+    
+    border: 1px solid ;
+    border-radius: 9999px;
+    align-items: center;
+    justify-content:center;
+    
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.nb1 .search input {
+    outline: none;
+    border:none;
+    padding: 5px;
+    width:69%;
+    background:none;
+    
+}
+.nb1 .search .search-icon{
+padding: 5px;
+    margin-left:5px;
+    border-left: 1px solid ;
+    width: 20px;
+    height:20px;
+}
+.logo p{
+    font-size:1.1em;
+   width:100%;
+   
+   margin-right:5px;
+}
+.nb1 .profile2{
+    width: 20%;
+   margin-left:2px;
+   
+   position: relative;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+      
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size:1em;
+    
+}
+
+
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  max-height:400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  margin-top:10%;
+  background:#007BFFFd;
+  border-radius: 30px;
+  
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 1em;
+  border-radius: 9999px;
+  border: 1px solid;
+  
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 9999px;
+  border: 1px solid;
+}
+#all-form{
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: fixed; 
+  height: 100%;
+}
+#all-form p{
+ padding: 10px;
+ margin-right:30px;
+  width: 80%;
+  font-size:40px;
+  border-radius: 10px;
+  border: 1px solid;
+  background:#007BFFFd;
+}
+.container-app{
+    width:100%;
+    max-width:400px;
+    
+    height: 100vh;
+}
+
+
+#app > div {
+    margin-bottom: 20px;
+}
+#app {
+    padding: 20px;
+}
+#app .page {
+    
+    margin-top:50px;
+    
+    
+    margin-bottom:50px;
+    
+}
+
+
+
+
+nav ul li{
+    margin-top: -5px;
+}
+nav ul li .active {
+    
+    font-size:1.3em;
+    
+}
+
+        
+
+
+        #coverPhoto {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            
+        }
+
+        #profilePhoto {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: relative;
+            top: -50px;
+            left:0;
+            margin-right:110px;
+            border: 3px solid;
+        }
+       .postBox-x .profilePhoto{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: relative;
+            border: 2px solid;
+            
+        }
+        
+#profile .postBox-x{
+    margin-top:10px;
+}
+
+#username {
+   position: relative;
+   
+   left:-10px;
+     margin-top:-50px;
+  }
+
+        
+button {
+    display: block;
+    width: auto; /* تغيير العرض إلى auto بدلاً من 100% */
+    padding: 10px 20px; /* إضافة التباعد إلى اليمين واليسار */
+    margin-top: 10px;
+    
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+      form {
+        width: 100%
+        padding: 10px;
+            }
+        }
+   .fileUpload {
+    position: relative;
+    width: 30px; /* تغيير العرض إلى 40 بكسل */
+    height: 30px; /* تغيير الارتفاع إلى 40 بكسل */
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 30px;
+    
+    background:#00000072;
+    cursor: pointer;
+}
+
+.fileUpload:hover {
+    background: #0056b3;
+}
+
+.fileUpload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+ .post {
+            border: 1px solid ;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            Max-width:400px;
+            width: 100%;
+            Max-height:800px;
+            height:100%;
+            margin-right: -10px;
+        }
+        .post .content {
+            margin-bottom: 10px;
+        }
+        .post .actions {
+            text-align: right;
+            display: flex;
+            justify-content: space-between;
+        }
+        .post .actions button {
+            padding: 5px 5px;
+            margin: 2px 2px;
+            font-size: 0.8em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        
+        .post p a{
+            text-decoration: none;
+            
+        }
+        #postButton {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+       
+        #postButtonUser{
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+       
+         .post .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .post .user-info img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post p{
+            font-size:16px;
+            margin-top:-1px;
+            
+        }
+        .post-ss{
+            
+        }
+        .postBox-x {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid;
+        height:40px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        gap:10px;
+        
+    }
+    
+    .postBox-x textarea {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid ;
+        border-radius: 5px;
+        background:none;
+    }
+    
+    .hedar-box-post{
+        width: 90%; 
+        height: 50px;
+        display:flex; 
+        align-items: center;    
+        text-align:center;
+        justify-content: space-between;
+        margin-bottom:20px;
+    }
+    #openPopupButtonMain{
+    width: 80%;
+    outline: none;
+    border: 1px solid #888;
+    height: 30px;
+    border-radius: 9999px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: #0000000d;
+    
+    }
+    #openPopupButtonUser{
+    width: 80%;
+    outline: none;
+    border: 1px solid #888;
+    height: 30px;
+    border-radius: 9999px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: #0000000d;
+    
+    }
+    /* النمط الخاص بالنافذة النموذجية */
+ .modal {
+  display: none; /* النافذة النموذجية مخفية بشكل افتراضي */
+  position:relative; /* ثابتة في المكان */
+  z-index: 1; /* تظهر فوق كل شيء */
+  left:0;
+  top: 0;
+  width: 40%; /* عرض كامل */
+  height: 220px; /* ارتفاع كامل */
+  overflow: auto; /* تمكين التمرير إذا لزم الأمر */
+  background-color: #fefefe;
+  margin-right:150px;
+  margin-top:-70px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* محتوى النافذة النموذجية */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% من الأعلى والمنتصف */
+  padding: 10px;
+  
+  width: 80%; /* يمكنك تغيير هذا إذا كنت تريد نافذة نموذجية أكبر أو أصغر */
+}
+.modal-content .actions1{
+    display: block; 
+    padding: 10px;
+  
+}
+.modal-content .actions button {
+    width:100%;
+    margin-bottom: 15px;
+}
+/* الزر الذي يغلق النافذة النموذجية */
+.close {
+
+position: absolute;
+right:10%;
+top:3%;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #ff000aaa;
+  text-align:center ;
+  width:30px;
+  height: 30px;
+}
+
+.close:hover,
+.close:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modalC {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-contentC {
+  border-radius: 10px;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid ;
+  width: 80%;
+}
+
+
+#statusIndicator{
+    width:0.7em;
+     height:0.7em; 
+     border: 1px solid;
+     border-radius:50%; 
+     position: relative;
+     top:0; 
+     margin-top: -15px;
+     right:26%;
+}
+#profilePhotoo{
+    width:40px;
+     height:40px; 
+     margin-top: -10px;
+      border: 2px solid ;
+      border-radius: 50%;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+.user{
+    gap:10px;
+    margin-bottom: 20px;
+}
+.profile-photo{
+    border:2px solid ;
+}
+
+#navbarChat{
+            border: 1px solid ;
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+       #chatContainer {
+            overflow: auto;
+            height: 480px;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 10px;
+            border: 1px solid ;
+            border-radius: 10px;
+        }
+        #chatContainer button{
+            width: 50px;
+            height: 30px;
+            padding: 0;
+        }
+        #inputContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        #inputField {
+            flex-grow: 1;
+            margin-right: 10px;
+            outline: none;
+            border:1px solid ;
+            border-radius: 9999px;
+            padding-right: 20px;
+            height: 40px;
+        }
+        #sendButton {
+            order: -1;
+            margin: 0;
+            width: 50px;
+            height: 40px;
+            padding: 0;
+            border-radius: 9999px;
+        }
+        #deleteAllButton{
+            width: 30%;
+            padding: 0;
+            margin-top: -20px;
+            
+        }
+    #chatContainer .message {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size:1em;
+}
+
+#chatContainer .user-message {
+    background-color: #0084ff;
+    
+    align-self: flex-start; /* تغيير هنا */
+    margin-left: 10px; /* وهنا */
+}
+
+#chatContainer .other-message {
+    
+    
+    align-self: flex-end; /* وهنا */
+    margin-right: 10px; /* وهنا */
+}
+.timestampAndDeleteButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
